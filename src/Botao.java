@@ -6,5 +6,6 @@ public class Botao extends JButton {
         this.setSize(100, 80);
         this.setLocation(posX, posY);
         this.setText(texto);
+        this.setVisible(true);
     }
 }
